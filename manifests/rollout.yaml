@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/alexavoicu/ci_cd_lab:sha256:b776afeb24ee3425a9c0617c434d3ba0d4d17396a90384bc53198142e37d9a21
+          image: ghcr.io/alexavoicu/ci_cd_lab@sha256:b776afeb24ee3425a9c0617c434d3ba0d4d17396a90384bc53198142e37d9a21
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
